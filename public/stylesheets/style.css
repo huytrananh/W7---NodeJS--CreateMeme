@@ -1,0 +1,30 @@
+.body {
+  flex: 1 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 56px);
+}
+
+.footer{
+  /* background-color: pink; */
+  text-align: center;
+}
+
+.form-input{
+  text-align: center;
+  background-color: pink;
+  margin: 20px 0 20px 0;
+}
+
+.btn-img{
+  height: 230px;
+  width: 300px;
+  margin-top: 50px;
+}

@@ -1,0 +1,13 @@
+<form action="/original" method="post" enctype="multipart/form-data" class="form-input">
+    <input    
+        type="file"
+        name="fileupload"
+        accept="image/*"
+    />
+  <button type="submit">Upload</button>
+</form>
+
+{{#if error}}
+<h1>{{error}}</h1>
+{{/if}}
+{{!-- <img src="/images/originals/aaaaaa.jpg"/> --}}
